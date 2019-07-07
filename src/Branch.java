@@ -44,11 +44,4 @@ public class Branch {
         }
         return null;
     }
-
-    public void showtransactions() {
-        for (Customer customer : customers) {
-            System.out.println(customer.getTransactions());
-        }
-
-    }
 }
